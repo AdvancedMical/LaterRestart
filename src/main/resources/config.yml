@@ -1,0 +1,1 @@
+broadcastCommand: "cmi bossbarmsg all -sec:-20 -c:red -s:1 &c&l服务器即将在小于{0}人后重启,请停下手里的事,不要把东西丢在地上."

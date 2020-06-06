@@ -1,0 +1,12 @@
+name: LaterRestart
+version: ${project.version}
+main: cn.lingyuncraft.laterrestart.LaterRestart
+api-version: 1.13
+authors: [shaokeyibb]
+description: auto restart your server when server is empty
+commands:
+  LaterRestart:
+    description: "重启服务器"
+    usage: /LaterRestart [当玩家小于多少人时重启服务器]
+    permission: "LaterRestart.use"
+    permission-message: "你么有权限使用此命令"
