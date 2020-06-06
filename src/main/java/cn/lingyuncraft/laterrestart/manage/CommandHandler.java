@@ -14,7 +14,7 @@ public class CommandHandler implements CommandExecutor {
             try {
                 cn.lingyuncraft.laterrestart.feature.GetPlayer.getStart(Integer.parseInt(args[0]));
                 sender.sendMessage("设置成功！");
-                Bukkit.dispatchCommand(sender, LaterRestart.broadcastCommand);
+                Bukkit.dispatchCommand(sender, LaterRestart.broadcastCommand.replace("{0}", args[0]));
                 return true;
             } catch (ClassCastException | ArrayIndexOutOfBoundsException e) {
                 sender.sendMessage("请输入正确的参数");
